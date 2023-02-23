@@ -1,4 +1,8 @@
-local plrGui = game.Players.LocalPlayer.PlayerGui.MainScreenGui
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "scriptMoney"
+screenGui.Parent = game.Players.LocalPlayer.PlayerGui
+
+local plrGui = game.Players.LocalPlayer.PlayerGui.scriptMoney
 -- create a TextBox
 local textBox = Instance.new("TextBox")
 textBox.Text = ""
